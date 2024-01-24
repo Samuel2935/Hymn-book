@@ -1,0 +1,61 @@
+.lang {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+table td {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(54, 135, 211);
+  color: white;
+  border-radius: 2px;
+}
+table td button {
+  padding: 5px 10px;
+  border-radius: 5%;
+  margin: 2px;
+  cursor: pointer;
+}
+table td button.edit {
+  border: 1px solid green;
+  background-color: rgb(7, 168, 7);
+  color: white;
+}
+table td button.edit:hover {
+  background-color: rgb(3, 71, 3);
+}
+table td button.delete {
+  border: 1px solid red;
+  background-color: rgb(219, 19, 19);
+  color: white;
+}
+table td button.delete:hover {
+  background-color: rgb(92, 5, 5);
+}
+
+/* FORM STYLES */
+.addForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10em;
+}
+.addForm input {
+  width: 220px;
+  height: 30px;
+  border: 1px solid whitesmoke;
+}
+.addForm button {
+  width: 135px;
+  height: 35px;
+  color: white;
+  background-color: rgb(31, 171, 31);
+  border: 1px solid whitesmoke;
+}
+.addForm button:hover {
+  background-color: rgb(5, 86, 5);
+}

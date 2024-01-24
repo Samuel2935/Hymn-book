@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 20px;
+  position: relative;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(112, 112, 170);
+}
+
+.search {
+  width: 70%;
+  margin: 10px;
+}
+
+.lag {
+  position: absolute;
+  left: 75%;
+  top: 37%;
+}
+ul li {
+  font-size: 20px;
+}

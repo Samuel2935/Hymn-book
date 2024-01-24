@@ -1,0 +1,43 @@
+.header-wrapper {
+  position: relative;
+  display: flex;
+  float: left;
+  margin-left: 10px;
+  width: 25%;
+  height: 800px;
+  background-color: #666;
+  color: #f3f3f3;
+  border: 2px solid #f3f3f3;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+  float: left;
+  color: whitesmoke;
+}
+
+.navbar{
+  position: absolute;
+  left: 30%;
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+nav ul li{
+  list-style-type: none;
+ 
+}
+
+/* admin settings */
+.avatar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 4em;
+  align-items: center;
+}
